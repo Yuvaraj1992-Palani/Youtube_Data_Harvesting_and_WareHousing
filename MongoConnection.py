@@ -3,7 +3,7 @@ from DataHarvesting import generate_output
 import json
 
 def upload_to_mongodb(API_Key, channel_id):
-    conn = MongoClient("mongodb+srv://karthikeyan:karthi007@clusters.ayv02is.mongodb.net/?retryWrites=true&w=majority")
+    conn = MongoClient("mongodb+srv://yuvarajp:12345@cluster0.a50pveg.mongodb.net/?retryWrites=true&w=majority")
     if conn:
         print("Connection Established Successfully")
 
