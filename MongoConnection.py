@@ -22,7 +22,7 @@ def upload_to_mongodb(API_Key, channel_id):
     
     
 def migrate_to_postgresSQL():
-    conn = MongoClient("mongodb+srv://karthikeyan:karthi007@clusters.ayv02is.mongodb.net/?retryWrites=true&w=majority")
+    conn = MongoClient("mongodb+srv://yuvarajp:12345@cluster0.a50pveg.mongodb.net/?retryWrites=true&w=majority")
     database = conn["Youtube"]
     collection = database["Channel_Data"]
     channel_names =[]
