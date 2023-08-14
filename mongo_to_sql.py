@@ -3,7 +3,7 @@ import pandas as pd
 
 
 def channel_info_df():
-    conn = MongoClient("mongodb+srv://karthikeyan:karthi007@clusters.ayv02is.mongodb.net/?retryWrites=true&w=majority")
+    conn = MongoClient("mongodb+srv://yuvarajp:12345@cluster0.a50pveg.mongodb.net/?retryWrites=true&w=majority")
     if conn:
         print("Connection Established Successfully")
     try:
@@ -28,7 +28,7 @@ def channel_info_df():
 
 
 def playlist_to_df():
-    conn = MongoClient("mongodb+srv://karthikeyan:karthi007@clusters.ayv02is.mongodb.net/?retryWrites=true&w=majority")
+    conn = MongoClient("mongodb+srv://yuvarajp:12345@cluster0.a50pveg.mongodb.net/?retryWrites=true&w=majority")
     if conn:
         print("Connection Established Successfully")
     try:
@@ -50,7 +50,7 @@ def playlist_to_df():
 
 
 def video_to_df():
-    conn = MongoClient("mongodb+srv://karthikeyan:karthi007@clusters.ayv02is.mongodb.net/?retryWrites=true&w=majority")
+    conn = MongoClient("mongodb+srv://yuvarajp:12345@cluster0.a50pveg.mongodb.net/?retryWrites=true&w=majority")
     if conn:
         print("Connection Established Successfully")
     try:
@@ -90,7 +90,7 @@ def video_to_df():
     return pd.DataFrame(video_collection)
 
 def comments_to_df():
-    conn = MongoClient("mongodb+srv://karthikeyan:karthi007@clusters.ayv02is.mongodb.net/?retryWrites=true&w=majority")
+    conn = MongoClient("mongodb+srv://yuvarajp:12345@cluster0.a50pveg.mongodb.net/?retryWrites=true&w=majority")
     if conn:
         print("Connection Established Successfully")
     try:
