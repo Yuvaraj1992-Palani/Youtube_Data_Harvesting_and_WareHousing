@@ -5,7 +5,7 @@ from mongo_to_sql import playlist_to_df
 from mongo_to_sql import video_to_df
 from mongo_to_sql import comments_to_df
 
-conn = pg2.connect(host='localhost',user='postgres',password='karthi123',port=5432,database='YoutubeData')
+conn = pg2.connect(host='localhost',user='root',password='',port=5432,database='YoutubeData')
 if conn:
     print("Connection Established Successfully")
     database = conn.cursor()
