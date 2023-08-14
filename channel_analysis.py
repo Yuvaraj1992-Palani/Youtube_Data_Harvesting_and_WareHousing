@@ -1,7 +1,7 @@
 import psycopg2 as pg2
 import pandas as pd
 
-conn = pg2.connect(host='localhost',user='postgres',password='karthi123',port=5432,database='YoutubeData')
+conn = pg2.connect(host='localhost',user='root',password='',port=5432,database='YoutubeData')
 if conn:
     print("Connection Established Successfully")
     database = conn.cursor()
